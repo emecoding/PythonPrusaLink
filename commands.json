@@ -1,0 +1,97 @@
+{
+    "stats":
+    {
+        "shortcut": null,
+        "function_name": "statistics",
+        "function_loc": "cPrinter",
+        "args": null
+    },
+
+    "dir":
+    {
+        "shortcut": null,
+        "function_name": "dir",
+        "function_loc": "cPrinter",
+        "args": ["storage", "folder"]
+    },
+
+    "storage":
+    {
+        "shortcut": null,
+        "function_name": "display_storage",
+        "function_loc": "cPrinter",
+        "args": null
+    },
+
+    "push_gcode":
+    {
+        "shortcut": "pgc",
+        "function_name": "push_gcode_to_storage",
+        "function_loc": "cPrinter",
+        "args": ["gcode_file_name", "storage", "target_folder"]
+    },
+
+    "overwrite_gcode":
+    {
+        "shortcut": "owgc",
+        "function_name": "overwrite_gcode_in_storage",
+        "function_loc": "cPrinter",
+        "args": ["gcode_file_name", "storage", "target_folder"]
+    },
+
+    "file_exists":
+    {
+        "shortcut": "fe",
+        "function_name": "file_exists",
+        "function_loc": "cPrinter",
+        "args": ["gcode_file_name", "storage", "target_folder"]
+    },
+
+    "start_print":
+    {
+        "shortcut": "bp",
+        "function_name": "start_print_from_storage",
+        "function_loc": "cPrinter",
+        "args": ["gcode_file_name", "storage", "target_folder"]
+    },
+
+    "stop_print":
+    {
+        "shortcut": "sp",
+        "function_name": "stop_print",
+        "function_loc": "cPrinter",
+        "args": null
+    },
+
+    "pause_print":
+    {
+        "shortcut": "pp",
+        "function_name": "pause_print",
+        "function_loc": "cPrinter",
+        "args": null
+    },
+
+    "resume_print":
+    {
+        "shortcut": "rp",
+        "function_name": "resume_print",
+        "function_loc": "cPrinter",
+        "args": null
+    },
+
+    "help":
+    {
+        "shortcut": "h",
+        "function_name": "display_commands",
+        "function_loc": "globals",
+        "args": null
+    },
+
+    "quit":
+    {
+        "shortcut": "q",
+        "function_name": "quit",
+        "function_loc": "globals",
+        "args": null
+    }
+}
